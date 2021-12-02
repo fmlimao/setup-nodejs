@@ -1,0 +1,37 @@
+{
+  "name": "setup-nodejs",
+  "version": "1.0.0",
+  "description": "Projeto de demonstraçao",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmlimao/setup-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "demo"
+  ],
+  "author": "Leandro Macedo <fmlimao@gmail.com> (http://github.com/fmlimao)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmlimao/setup-nodejs/issues"
+  },
+  "homepage": "https://github.com/fmlimao/setup-nodejs#readme",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.4.3"
+  }
+}
