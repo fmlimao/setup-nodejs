@@ -12,4 +12,16 @@ describe('Say Hello tests', () => {
 
     expect(response).toBe('Hello Macedo!')
   })
+
+  test('Shold say Good Bye', () => {
+    const response = sayHelloWorld.sayGoodBye()
+
+    expect(response).toBe('Hello Good Bye!')
+  })
+
+  test('Shold say Good Bye Macedo', () => {
+    const response = sayHelloWorld.sayGoodBye('Macedo')
+
+    expect(response).toBe('Hello Good Bye Macedo!')
+  })
 })
