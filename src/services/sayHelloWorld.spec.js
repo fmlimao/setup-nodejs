@@ -16,12 +16,12 @@ describe('Say Hello tests', () => {
   test('Shold say Good Bye', () => {
     const response = sayHelloWorld.sayGoodBye()
 
-    expect(response).toBe('Hello Good Bye!')
+    expect(response).toBe('Good Bye!')
   })
 
   test('Shold say Good Bye Macedo', () => {
     const response = sayHelloWorld.sayGoodBye('Macedo')
 
-    expect(response).toBe('Hello Good Bye Macedo!')
+    expect(response).toBe('Good Bye Macedo!')
   })
 })
